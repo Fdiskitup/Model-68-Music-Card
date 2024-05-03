@@ -8,3 +8,12 @@ but at least I have extra slots free on the SS30 bus.
 First order of business is to build the replica Card.  
 
 see also the repositoy by Zoggins and Corsham Technologies
+
+I have OCR'd the NEWTECH, INC user guide.  I then recreated  the Text and corrected many of the OCR defects.  
+
+The Basic program SCORE68 works ! I used teraterm (9600, added charachter delay 10 ms and carrage return delay 10 ms to get the paste to work reliably and at a visible speed to spot massive errors) 
+to paste this into FLEX09 + BASIC935 running on my Corsham Tech 6809.  
+After running the SCORE68 program the notes data for "The Entertainer" were put into memory and exiting to the monitor I was able to see the hex values present at the expected address. 
+perhaps adding a PEEK subroutine to verify the values in memory would be worthwhile. 
+also adding a user input to choose the memory location where the score is stored.
+next to assemble the Play68 code for my system and io space. 
