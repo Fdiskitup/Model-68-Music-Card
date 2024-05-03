@@ -1,0 +1,10 @@
+This repository is for the Model 68 Music Card originally produced by Newtech Inc in 1977,  The version I have is a recreation by Bob Applegate Corsham Technologies.  
+I have a Corsham Technologies 6809 system (Backplane / 6809 CPU card / Serial card / Parallel Card / Disk Emulator Arduino to SD)  - this will require removing the parallel to test or 
+a SS30 bus extension to run the music card.
+
+My second system is a MSI (Midwest Scientific Instruments Chassis), with a GIMIX 6809 CPU card, 64 KB Electra DRAM card, SWTP serial card.  This has a custom monitor BUG and the SS30 port addressing is non standard.
+but at least I have extra slots free on the SS30 bus.
+
+First order of business is to build the replica Card.  
+
+see also the repositoy by Zoggins and Corsham Technologies
