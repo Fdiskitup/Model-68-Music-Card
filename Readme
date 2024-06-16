@@ -17,3 +17,5 @@ After running the SCORE68 program the notes data for "The Entertainer" were put 
 perhaps adding a PEEK subroutine to verify the values in memory would be worthwhile. 
 also adding a user input to choose the memory location where the score is stored.
 next to assemble the Play68 code for my system and io space. 
+
+I found versions of score68b and play68b - the basic program (score68b) should be ok, but the assembly code (play68b) may need some cross assembly to work with a 6809 cpu. 
