@@ -19,3 +19,6 @@ also adding a user input to choose the memory location where the score is stored
 next to assemble the Play68 code for my system and io space. 
 
 I found versions of score68b and play68b - the basic program (score68b) should be ok, but the assembly code (play68b) may need some cross assembly to work with a 6809 cpu. 
+
+21/6/2024
+Added some score file in txt file format - once these have been checked and processed with the SCORE.BAS program I will add code to the bottom of the text.  possibly even S19 files.  
